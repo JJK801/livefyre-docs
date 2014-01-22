@@ -341,6 +341,7 @@ Parameters
 |              |            | "field^float" (e.g. "title^1.0,body^1.9").|
 |              |            | Fields:                                   |
 |              |            |                                           |
+|              |            | - id: One of Livefyre ID or Client ID     |
 |              |            | - article: The text on the page where the |
 |              |            |   conversation is embedded                |
 |              |            | - title: The title of the conversation    |
@@ -378,9 +379,9 @@ Parameters
 |              |            |   title, published, updated, author, url, |
 |              |            |   ncomment, nuser, annotation, nlp,       |
 |              |            |   hotness, hottest_value, hottest_time,   |
-|              |            |   peak, peak_value, peak_time, comments:5,|
-|              |            |   users:5, comment_state, hit_field,      |
-|              |            |   dispurl, relevancy                      |
+|              |            |   peak, peak_value, peak_time,            
+|              |            |   comment_state, hit_field, dispurl,      |
+|              |            |   relevancy                               |
 |              |            | - any comma-separated list of fields      |
 |              |            |   listed under 'all'                      |
 |              |            |                                           |
